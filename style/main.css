@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --verde-bebê:cornflowerblue;
+    --preta:black;
+}
+
+/*elementos base*/
+body{
+    background: var(--preta);
+    color: white;
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right:  10px;
+    justify-content: space-between ;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--verde-bebê);
+    font-family: serif,'Times New Roman', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: cornflowerblue;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color: aquamarine;
+}
+
+/*Dorama-Principal*/
+.dorama-principal{
+    font-size: 24px;
+    background: linear-gradient(rgba(0,0, 0, 0.30),rgba(0, 0,0, 0.30)  100% ), url('../Imagem/vinte\ cinco.png');
+    height: 520px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.sinopse{
+    font-size:24px;
+    color: black;
+    font-family:fantasy,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+
+.título{
+    margin-top: 220px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 34px;
+}
+
+.botao{
+    font-size: 18px;
+    background-color:var(--verde-bebê) ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    margin-right: 13px;
+    margin-left: 10px;
+    color: black;
+    padding: 14px 14px ;
+    
+    cursor: pointer;
+    transition: 3s ease all;
+}
+
+.botao:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.botao i{
+    margin-right: 9px;
+}
+
+.container{
+    margin-left: 25px;
+}
+
+.dorama-principal .container{
+    width: 60%;
+}
+
+
+.box-dorama{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-doramas{
+    margin-top: 10px;
+}

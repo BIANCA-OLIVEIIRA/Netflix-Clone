@@ -1,0 +1,36 @@
+@media screen and (max-width:700px){
+    
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+     .botao{
+         margin-top: 10px;
+         width: 220px;
+         height: 50px;
+     }
+
+     .sinopse{
+        font-size:21px;
+        color: black;
+        font-family:fantasy,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-bottom: 16px;
+    }  
+    
+    
+    .título{
+        margin-top: 120px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 34px;
+    }
+    .carrosel-doramas{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .sinopse{
+        width: 50%;
+    }
+    
+}
